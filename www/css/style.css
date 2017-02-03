@@ -1,11 +1,93 @@
 /* Empty. Add your own CSS if you like */
-#main{
-background: url("../img/img-main-fond.png") no-repeat fixed center;
+body {
+    font-size: 0;
 }
-#head-logo{
+
+.login {
+    background-image: url(../img/background-1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.logo {
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.intro {
+    width: 100%;
+    margin: 0 auto 30px auto;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.separation {
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+}
+
+hr {
+    width: 40%;
+    display: inline-block;
+    border: 0;
+    border-top: solid 1px grey;
+    margin: auto;
+}
+
+#choix {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    color: grey;
+}
+
+#inscription {
+    width: 100%;
     display: block;
-    left: 9%;
+    border: 0;
+    background: #F3904F;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    margin: auto;
+    font-weight: bold;
+}
+
+#connection {
+    width: 100%;
+    display: block;
+    border: 0;
+    background: #fff;
+    padding: 13px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #F3904F;
+    margin: auto;
+    font-weight: bold;
+}
+
+.page {
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.block-bottom {
+    padding: 0 15%;
     position: absolute;
-    top: 15px;
-    z-index: 1;
+    bottom: 0;
+}
+
+ion-view {
+    position: relative;
 }
