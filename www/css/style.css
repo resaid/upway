@@ -1,0 +1,11 @@
+/* Empty. Add your own CSS if you like */
+#main{
+background: url("../img/img-main-fond.png") no-repeat fixed center;
+}
+#head-logo{
+    display: block;
+    left: 9%;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
