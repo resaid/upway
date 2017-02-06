@@ -137,6 +137,9 @@ hr {
     color: #ffffff;
     width:50%;
 }
+#btn-register:hover{
+    background: #737373;
+}
 .page, .container {
     height: 90vh;
     width: 100%;
