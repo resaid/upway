@@ -2,15 +2,18 @@
 body {
     font-size: 0;
 }
+p{font-size: 16pt}
 
 .login, #main {
     background: url(../img/background-1.jpg) center;
     background-size: cover;
     
 }
-.photo_prof{
+.block-top-profil{
     background: url(../img/mockup1.jpg) center;
     background-size: cover;
+    height: 210px;
+    width: auto;
 }
 
 .logo {
