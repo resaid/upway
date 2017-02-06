@@ -50,11 +50,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     })
     .state('app.playlists', {
-      url: '/playlists',
+      url: '/accueil',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
-          controller: 'PlaylistsCtrl'
+          templateUrl: 'templates/accueil.html',
+          /*controller: 'accueilCtrl'*/
         }
       }
     })
