@@ -15,6 +15,25 @@ p{font-size: 16pt}
     height: 210px;
     width: auto;
 }
+.block-top-info{
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    padding: 0 20px;
+}
+.block-top-info p{
+    float: left;
+    color: #ffffff;
+    line-height: 50px;
+}
+.block-top-info i{
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    background: #3C4371;
+    padding: 15px;
+    border-radius: 50%;
+}
 
 .logo {
     transform: translateX(-50%);
