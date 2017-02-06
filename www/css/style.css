@@ -8,6 +8,10 @@ body {
     background-size: cover;
     
 }
+.photo_prof{
+    background: url(../img/mockup1.jpg) center;
+    background-size: cover;
+}
 
 .logo {
     transform: translateX(-50%);
