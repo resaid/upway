@@ -3,9 +3,8 @@ body {
     font-size: 0;
 }
 
-.login {
-    background-image: url(../img/background-1.jpg);
-    background-position: center;
+.login, #main {
+    background: url(../img/background-1.jpg) center;
     background-size: cover;
     
 }
@@ -62,7 +61,7 @@ hr {
     font-weight: bold;
 }
 
-#connection {
+#connection{
     width: 100%;
     display: block;
     border: 0;
@@ -74,8 +73,33 @@ hr {
     margin: auto;
     font-weight: bold;
 }
-
-.page {
+.btn-inscription {
+    width: 100% !important;
+    display: block !important;
+    border: 0 !important;
+    background: #fff !important;
+    padding: 13px !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    color: #F3904F !important;
+    font-weight: bold !important;
+    height: auto !important;
+    margin: 15px auto !important;
+}
+.btn-modif {
+    width: 100% !important;
+    display: block !important;
+    border: 0 !important;
+    background: #fff !important;
+    padding: 13px !important;
+    box-sizing: border-box !important;
+    border-radius: 5px !important;
+    color: #F3904F !important;
+    font-weight: bold !important;
+    height: auto !important;
+    margin: 15px auto !important;
+}
+.page, .container {
     height: 90vh;
     width: 100%;
     overflow: hidden;
@@ -83,6 +107,7 @@ hr {
 }
 
 .block-bottom {
+    width: 100%;
     padding: 0 15%;
     position: absolute;
     bottom: 0;
