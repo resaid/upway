@@ -2,8 +2,8 @@
 body {
     font-size: 0;
 }
-p{font-size: 16pt}
-
+p{font-size: 16pt;}
+.fa{font-size: 20px !important;}
 .login, #main {
     background: url(../img/background-1.jpg) center;
     background-size: cover;
@@ -140,8 +140,8 @@ hr {
 #btn-register:hover{
     background: #737373;
 }
-.page, .container {
-    height: 90vh;
+.page{
+    min-height: 100vh;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -159,4 +159,28 @@ hr {
 
 ion-view {
     position: relative;
+}
+
+/***** page d'accueil ***/
+.block-bottom-menu{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+}
+.icon-left{
+    position: absolute;
+    left: 5%;
+    bottom: 5vw;
+}
+.icon-middle{
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    bottom: 5vw;
+}
+.icon-right{
+    right: 5vw;
+    position: absolute;
+    bottom: 5vw;
 }
