@@ -52,5 +52,8 @@ angular.module('starter.controllers', [])
   ];
 })*/
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+    .controller('HomeCtrl', function($scope, $http) {
+        $http.get("http://tpdevmobile.mmi-lepuy.fr/index.php").then(function(rep) {
+            $scope.data = rep.data;
+        });
+    });
