@@ -3,7 +3,6 @@ body {
     font-size: 0;
 }
 p{font-size: 16pt;}
-.fa{font-size: 20px !important;}
 .login, #main {
     background: url(../img/background-1.jpg) center;
     background-size: cover;
@@ -162,6 +161,8 @@ ion-view {
 }
 
 /***** page d'accueil ***/
+.block-bottom-menu .fa{font-size: 40px !important;}
+.icon-niv .fa {font-size: 30px !important;}
 .block-bottom-menu{
     position: absolute;
     bottom: 0;
@@ -172,6 +173,7 @@ ion-view {
     position: absolute;
     left: 5%;
     bottom: 5vw;
+    font-size: 30px;
 }
 .icon-middle{
     transform: translateX(-50%);
@@ -183,4 +185,28 @@ ion-view {
     right: 5vw;
     position: absolute;
     bottom: 5vw;
+}
+
+.btn-start{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+}
+.btn-start p{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn-start .fa{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%,-50%);
 }
