@@ -1,7 +1,48 @@
 /* Empty. Add your own CSS if you like */
 body {
     font-size: 0;
+    font-family:"Roboto Rg";
 }
+
+.btn-lg {
+    width: 100%;
+    height: auto;
+    border: 0;
+    font-size: 16px;
+    padding: 13px 0;
+    text-transform: uppercase;
+    font-family: "Roboto Bl";
+
+}
+
+
+.btn-blue{
+    /*background: #4b5497;*/
+    background: linear-gradient(#343E82 0%, #4b5497 100%);
+    color: #ffffff;
+}
+
+.btn-white{
+    background: linear-gradient(#AE9A87 0%, #DFD1C7 100%);
+    color: #4b5497;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #map {
     height: 100vh;
     width: 100vw;
@@ -49,14 +90,14 @@ p{font-size: 16pt;}
     width: 100%;
     margin: 0 auto 30px auto;
     color: #fff;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 23px;
     text-align: center;
 }
 
 .separation {
     width: 100%;
-    margin: 15px auto;
+    margin: 20px auto;
     display: flex;
 }
 
@@ -64,7 +105,7 @@ hr {
     width: 40%;
     display: inline-block;
     border: 0;
-    border-top: solid 1px grey;
+    border-top: solid 1px #ffffff;
     margin: auto;
 }
 
@@ -72,9 +113,9 @@ hr {
     display: inline-block;
     width: 20%;
     text-align: center;
-    font-size: 18px;
+    font-size: 17px;
     margin: auto;
-    color: grey;
+    color: #ffffff;
 }
 
 #inscription {
@@ -152,10 +193,11 @@ hr {
 
 .block-bottom {
     width: 100%;
-    padding: 0 15%;
+    padding: 0 20%;
     position: absolute;
     bottom: 25%;
-}.block-bottom2{
+}
+.block-bottom2{
     padding: 0 2%;
     width: 100%;
  }
@@ -275,3 +317,18 @@ span.progress-text {
 p.text-xp {
     margin-top: 40px;
 }
+
+/***** Font-family *****/
+@font-face {
+    font-family: 'Roboto Lt';
+    src: url('fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'Roboto Bl';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: 'Roboto Rg';
+    src: url('fonts/Roboto-Regular.ttf');
+}
+
