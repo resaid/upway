@@ -1,12 +1,21 @@
 <ion-view hide-nav-bar="true">
   <ion-content id="main">
       <div class="page">
-          <header class="icon-niv">
-              <i class="fa fa-car fa-2x" aria-hidden="true"></i>
+          <header>
+              <span class="icon-niv">
+                  <i class="fa fa-car fa-2x" aria-hidden="true"></i>
+                  <i class="fa fa-star-o fa-2x niv-fa" aria-hidden="true"></i>
+              </span>
           </header>
           <section class="block-container-acc">
-            <p> Vous êtes <br> <span>Niveau 2</span> </p>
-              <p> 3000xp / <span>450xp</span> </p>
+            <div class="block-progress">
+                <p> Vous êtes <br> <span class="progress-text">Niveau 2</span> </p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%;"></div>
+                </div>
+                <p class="text-xp"> 3000xp / <span class="progress-text">450xp</span></p>
+            </div>
+
               <div class="btn-start">
                       <i class="fa fa-car fa-2x" aria-hidden="true"></i>
                       <p> Démarrer</p>
